@@ -9,6 +9,9 @@ function translator(lang) {
         case "ru":
             output = "Привет!";
             break;
+        case "de":
+            output = "Gutten tag!";
+            break;
         default:
             output = "Язык неизвестен";
     };
