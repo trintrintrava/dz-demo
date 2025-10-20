@@ -8,7 +8,7 @@ function check(cryptoPass, pass){
   let cryptoPassList = cryptoPass.split("");
   cryptoPassList.splice(0,1);
   let finalPass = cryptoPassList.reverse().join("");
-  if (!finalPass === pass){
+  if (finalPass != pass){
     return false;
   }
   return true;
