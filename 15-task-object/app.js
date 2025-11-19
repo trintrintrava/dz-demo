@@ -14,7 +14,7 @@ ToDoList = {
         let index = this.tasks.findIndex(task => task.id === id);
 
         if (index !== -1) {
-            this.tasks.splice(index);
+            this.tasks.splice(index, 1);
         } else {
             console.log("Такой таски не существует");
         }
